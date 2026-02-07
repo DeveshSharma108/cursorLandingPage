@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Project Demo – Cursor Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        margin: 0;
+        background: radial-gradient(circle at top, #1c1c1c, #000);
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .player-wrapper {
+        width: 90%;
+        max-width: 1100px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 12px;
+        letter-spacing: 1px;
+      }
+
+      p {
+        color: #bbb;
+        margin-bottom: 20px;
+      }
+
+      video {
+        width: 100%;
+        max-height: 70vh;
+        border-radius: 10px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+        background: #000;
+      }
+
+      .back-link {
+        display: inline-block;
+        margin-top: 16px;
+        color: #f54e00;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .back-link:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="player-wrapper">
+      <h1>Cursor Landing Page – Demo</h1>
+
+      <video controls autoplay>
+        <source src="Cursor-Landing-Page-Preview.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <a
+        class="back-link"
+        href="https://deveshsharma108.github.io/cursorLandingPage/"
+        >← Back to Website</a
+      >
+    </div>
+  </body>
+</html>

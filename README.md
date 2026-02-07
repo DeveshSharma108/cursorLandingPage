@@ -15,12 +15,10 @@ Original site: [https://cursor.com](https://cursor.com)
 
 ---
 
-## 📸 Preview
+📸 Preview
 
-<video width="100%" controls>
-  <source src="./Cursor-Landing-Page-Preview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+**Watch Preview**  
+[Open Preview](https://deveshsharma108.github.io/cursorLandingPage/preview.html)
 
 ## 📋 Sections Recreated
 
