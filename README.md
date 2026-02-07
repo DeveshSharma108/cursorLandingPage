@@ -17,11 +17,10 @@ Original site: [https://cursor.com](https://cursor.com)
 
 ## 📸 Preview
 
-```md
-![Preview](./Cursor-Landing-Page-Preview.mp4)
-```
-
----
+<video width="100%" controls>
+  <source src="./Cursor-Landing-Page-Preview.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 📋 Sections Recreated
 
