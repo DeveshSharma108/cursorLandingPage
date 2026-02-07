@@ -11,7 +11,7 @@ Original site: [https://cursor.com](https://cursor.com)
 ## 🌐 Live Preview
 
 🔗 **GitHub Pages:**
-`https://deveshsharma108.github.io/cursorLandingPage/`
+https://deveshsharma108.github.io/cursorLandingPage/
 
 ---
 
