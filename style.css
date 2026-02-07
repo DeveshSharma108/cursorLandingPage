@@ -1,0 +1,378 @@
+:root {
+  --background-color: #14120b;
+  --text-color-main: #edecec;
+  --text-color-sec: #edecec99;
+  --background-color-card: #1b1913;
+  --card-hover-color: #201e18;
+  --link-color: #f54e00;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text-color-main);
+  background-color: var(--background-color);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+  cursor: pointer;
+}
+
+a:hover {
+  color: #f54e00c0;
+  cursor: pointer;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.6em 1.2em;
+  border-radius: 999px; /* pill */
+  border: 1px solid var(--text-color-main);
+  background: var(--text-color-main);
+  color: var(--background-color);
+  cursor: pointer;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: var(--text-color-sec);
+  border: 1px solid var(--text-color-sec);
+}
+
+#signInBtn {
+  background-color: transparent;
+  border: 1px solid var(--text-color-sec);
+  color: var(--text-color-main);
+}
+
+#signInBtn:hover {
+  background-color: var(--card-hover-color);
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  background-color: var(--background-color);
+}
+
+.header-nav button {
+  padding: 4px 8px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav .container {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0px;
+}
+
+.header-nav ul {
+  all: unset;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+}
+
+.header-nav a {
+  color: var(--text-color-main);
+}
+
+.hero {
+  /*background-color: teal;*/
+  padding: 120px 20px 67px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.imgContainer {
+  width: 100%;
+  /*background-color: red;*/
+  object-fit: cover;
+}
+
+.trustedBy {
+  /*background-color: azure;*/
+  padding: 0px 20px 33px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trustedBy .container {
+  text-align: center;
+  margin: 0px 282px;
+  width: 1300px;
+  /*background-color: blueviolet;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.logoGarden {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+  width: 100%;
+  height: 75%;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  height: 100px;
+  background-color: var(--background-color-card);
+}
+
+.features {
+  padding: 67px 20px;
+  /*background-color: cadetblue;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 96px;
+}
+
+.features section {
+  /*background-color: yellowgreen;*/
+  background-color: var(--background-color-card);
+  padding: 20px 20px;
+  width: 1300px;
+}
+
+.featDescriptiondiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 16px;
+}
+
+.fadedText {
+  color: var(--text-color-sec);
+}
+
+.features section .container.type1 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+
+.features section .container.type2 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+
+.features section .imgContainer {
+  /*background-color: bisque;*/
+  width: auto;
+}
+
+.testemonialSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*background-color: chocolate;*/
+  padding: 67px 20px;
+}
+
+.testemonialSection > .container {
+  width: 1300px;
+}
+
+.testemonialSection .reviewGrid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.testemonialSection .reviewDiv {
+  /*background-color: yellowgreen;*/
+  background-color: var(--background-color-card);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px;
+}
+
+.testemonialSection .reviewerDetailsDiv {
+  display: flex;
+  /*background-color: violet;*/
+  gap: 8px;
+  align-items: center;
+}
+
+.useCasesSection {
+  /*background-color: aliceblue;*/
+  padding: 67px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.useCasesSection .container {
+  /*background-color: beige;*/
+  width: 1300px;
+}
+
+.useCasesSection .useCaseCardsContainer {
+  display: flex;
+  margin-top: 16px;
+  gap: 25px;
+}
+
+.useCaseCardsContainer div {
+  background-color: var(--background-color-card);
+}
+
+.changelogSection {
+  /*background-color: grey;*/
+  padding: 67px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.changelogSection .container {
+  /*background-color: palevioletred;*/
+  width: 1300px;
+  padding: 8px;
+}
+
+.changelogSection .changelogCardsContainer {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  gap: 8px;
+}
+
+.changelogSection .changelogCardsContainer div {
+  width: 25%;
+}
+
+.changelogSection .card {
+  padding: 16px;
+}
+
+.changelogSection span {
+  padding: 0px 10px;
+  border: 1px solid var(--text-color-sec);
+  border-radius: 50px;
+  margin-right: 4px;
+}
+
+.finalCTASection {
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 136px 20px;
+  gap: 16px;
+}
+
+.site-footer {
+  background-color: var(--background-color-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 67px 20px 30px 20px;
+}
+
+.site-footer .container {
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.site-footer a {
+  text-decoration: none;
+  color: var(--text-color-main);
+}
+
+.footer-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-options {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-options div {
+  border: 1px solid #26241e;
+  background-color: #26241e;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.toggleThemeDiv {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-options button {
+  all: unset;
+  background-color: transparent;
+  color: var(--text-color-main);
+}
+
+.card {
+  background-color: var(--background-color-card);
+}
+.card:hover {
+  background-color: var(--card-hover-color);
+  cursor: pointer;
+}

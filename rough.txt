@@ -1,0 +1,42 @@
+# Rough file to make outline and save the variables from the site
+
+body{
+    color: #edecec;
+    bgc: #14120b;
+    min-height:100vh;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box
+}
+
+header{
+    position: sticky
+}
+
+main has 9 sections in original site 
+1. Hero section --> Container div --> headline downaload btn div and image div
+2. Trusted by section --> One div --> heading and then logo garden div ( each children itself is div with logos )
+3. Features Section --> 3 grids each having two divs one for image one for description (the two divs are given area in the ratio 1:2)
+4. Testimonials section --> 2 divs (one for heading ) another for the reviews card (can use grid or flex)
+5. Use cases section (div --> grid with 3 div each having short text and image)
+6. change log section --> div --> (heading , grid (inside it 4 divs), link)
+7. Join us section (same layout as the feature section's individual articles)
+8. Final CTA div with heading and a button 
+
+footer 
+has two divs one for all the links 
+the first one will have nav tag which will contain divs that will store the links in ul ..
+other for the cc, dark mode etc 
+
+footer{
+
+}
+
+
+[data-theme=dark] {
+    --color-theme-bg: #14120b;
+    --color-theme-fg: #edecec;
+    --color-theme-fg-02: #d7d6d5;
+    --color-theme-card-hex: #1b1913;
+    --color-theme-card-hover-hex: #201e18;
+}
